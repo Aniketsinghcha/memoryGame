@@ -1,0 +1,75 @@
+  
+ *{
+    margin:0;
+    padding: 0;
+    background-color:#000;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ }
+ #main {
+    position: relative;
+     
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+     
+ }
+ #main #item {
+    margin-top: 1vh;
+    margin-left: 1vw;
+    margin-right: 0.5vw;
+    margin-bottom: -3vh;
+      
+     
+     
+     
+ }
+ #container #score {
+   height: 30vh;
+   width: 100vw;
+   color: white;
+ }
+  
+ #main #item
+  {
+    height:18vh;
+    width:20vw;
+    position: relative;
+    background-color:#222 ;
+      
+ }
+#main #item .img {
+   height: 50%;
+   width:40%;
+   position: absolute;
+   left: 30%;
+   top:20%;
+
+}
+ #item .item-hidden {
+    position: absolute;
+     
+    height: 100%;
+    width: 100%;
+  opacity: 0;
+ }
+  
+ #item .item-hidden img {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+ }
+ #won {
+   visibility: hidden;
+   height: fit-content;
+   width: fit-content;
+ }
+ #won img {
+   height: 10vh;
+   width: 10vw;
+   margin-left: 10vw;
+
+ }
+  
